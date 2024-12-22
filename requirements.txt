@@ -4,4 +4,4 @@ yfinance
 pandas
 ta
 xgboost
-tenser
+keras
