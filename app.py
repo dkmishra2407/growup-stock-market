@@ -39,7 +39,7 @@ scaler = StandardScaler()
 
 # Main function to manage app flow
 def main():
-    option = st.sidebar.selectbox('Choose an option', ['Visualize', 'Recent Data', 'Predict'])
+    option = st.sidebar.selectbox('Choose an option', ['Recent Data', 'Predict'])
     if option == 'Visualize':
         visualize_technical_indicators()
     elif option == 'Recent Data':
